@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Course requirements -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact form for Lala Aslanova">
+  <meta name="author" content="Lala Aslanova">
+  <title>Contact Me - Lala Aslanova</title>
+  <link rel="icon" href="favicon.ico">
+</head>
+<body id="top">
+
+  <!-- Header strip (same style as other pages) -->
+  <table width="100%" cellpadding="12" cellspacing="0" bgcolor="#e8f2ff">
+    <tr>
+      <td>
+        <h1 style="margin:0;">Contact Me ✉️</h1>
+        <nav>
+          <a href="index.html">Home</a> |
+          <a href="education.html">Education</a> |
+          <a href="experience.html">Experience</a> |
+          <a href="schedule.html">Weekly Schedule</a> |
+          <strong>Contact Me</strong>|
+          <a href="questionnaire.html">Questionnarie</a> 
+        </nav>
+      </td>
+    </tr>
+  </table>
+
+  <main>
+    <!-- Short intro -->
+    <section>
+      <p>Have a question or collaboration idea? Send me a message using the form below. It will open your email client and send the content as plain text.</p>
+    </section>
+
+    <!-- Form block with a light background (HTML-only) -->
+    <section>
+      <table width="100%" cellpadding="12" cellspacing="0" border="1" bordercolor="#b3c7ff" bgcolor="#f7fbff">
+        <tr>
+          <td>
+            <!-- IMPORTANT: plain-text submission to your email -->
+            <form method="post" enctype="text/plain" action="mailto:laslanova16179@ada.edu.az">
+              <h2>Your Details</h2>
+              <p>
+                <label>Full Name:
+                  <input type="text" name="name" required>
+                </label>
+              </p>
+              <p>
+                <label>Email:
+                  <input type="email" name="email" required>
+                </label>
+              </p>
+              <p>
+                <label>Subject:
+                  <input type="text" name="subject" placeholder="e.g., Project idea">
+                </label>
+              </p>
+
+              <h2>Preferred Contact</h2>
+              <p>
+                <label><input type="radio" name="preferred_contact" value="Email" checked> Email</label>
+                <label><input type="radio" name="preferred_contact" value="Phone"> Phone</label>
+                <label><input type="radio" name="preferred_contact" value="Either"> Either</label>
+              </p>
+
+              <h2>Topics</h2>
+              <p>
+                <label><input type="checkbox" name="topic_it" value="IT"> IT</label>
+                <label><input type="checkbox" name="topic_business" value="Business"> Business</label>
+                <label><input type="checkbox" name="topic_marketing" value="Marketing"> Marketing</label>
+                <label><input type="checkbox" name="topic_other" value="Other"> Other</label>
+              </p>
+
+              <h2>How did you find me?</h2>
+              <p>
+                <select name="source">
+                  <option>LinkedIn</option>
+                  <option>Friend</option>
+                  <option>Classmate</option>
+                  <option>Instructor</option>
+                  <option>Other</option>
+                </select>
+              </p>
+
+              <h2>Your Message</h2>
+              <p>
+                <textarea name="message" rows="6" cols="60" placeholder="Write your message here..." required></textarea>
+              </p>
+
+              <!-- Simple consent strip -->
+              <table cellpadding="8" cellspacing="0" border="1" bordercolor="#ffd28a" bgcolor="#fff7e6" width="100%">
+                <tr>
+                  <td>
+                    <label><input type="checkbox" name="consent" required> I agree to be contacted about my message.</label>
+                  </td>
+                </tr>
+              </table>
+
+              <p>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+              </p>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Quick info row (optional) -->
+    <section>
+      <table cellpadding="10" cellspacing="0" border="1" bordercolor="#e2e2e2" width="100%">
+        <caption><strong>Quick Info</strong></caption>
+        <tr>
+          <td>📍 Baku, Azerbaijan</td>
+          <td>🔗 <a href="https://www.linkedin.com/in/lala-aslanova-b949a6326/" target="_blank">LinkedIn</a></td>
+          <td>✉️ laslanova16179@ada.edu.az</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer strip (same style as other pages) -->
+  <table width="100%" cellpadding="10" cellspacing="0" bgcolor="#f4f7ff">
+    <tr>
+      <td align="center">
+        &copy; 2025 Lala Aslanova • <a href="#top">Back to top</a> • <a href="index.html">Home</a>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
